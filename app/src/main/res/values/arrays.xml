@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_size_entries">
+        <item>5x5</item>
+        <item>8x8</item>
+        <item>12x12</item>
+    </string-array>
+    <string-array name="pref_size_values">
+        <item>5</item>
+        <item>8</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_symbol_entries">
+        <item>X / O</item>
+        <item>1 / 2</item>
+        <item>- / |</item>
+    </string-array>
+    <string-array name="pref_symbol_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_colour_entries">
+        <item>Green</item>
+        <item>Red</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="pref_colour_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

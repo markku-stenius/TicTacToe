@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_game_settings"
+        android:key="pref_key_game_settings">
+        <ListPreference
+            android:title="@string/pref_title_size"
+            android:key="pref_game_size"
+            android:entries="@array/pref_size_entries"
+            android:entryValues="@array/pref_size_values"
+            android:defaultValue="@string/pref_size_default"/>
+        <ListPreference
+            android:title="@string/pref_title_symbols"
+            android:key="pref_game_symbols"
+            android:entries="@array/pref_symbol_entries"
+            android:entryValues="@array/pref_symbol_values"
+            android:defaultValue="@string/pref_symbol_default"/>
+        <ListPreference
+            android:title="@string/pref_title_colours"
+            android:key="pref_game_colours"
+            android:entries="@array/pref_colour_entries"
+            android:entryValues="@array/pref_colour_values"
+            android:defaultValue="@string/pref_colour_default"/>
+    </PreferenceCategory>
+</PreferenceScreen>
